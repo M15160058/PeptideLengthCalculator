@@ -1,6 +1,3 @@
-# PeptideLengthCalculator
-# Peptide Length Calculator
-
 ## Project Description
 The Peptide Length Calculator is a Python-based tool designed to calculate the total length of a peptide chain given a sequence of amino acids. This tool takes into account the distances between the N-terminal of one amino acid to the peptide bond of the next, as well as the distance from the last peptide bond to the C-terminal.
 
@@ -17,3 +14,5 @@ This project does not require any external libraries to run the main script. It 
 2. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/M15160058/peptidelengthcalculator.git
+## Requirement
+You need FASTA sequence to calculate the length of the extended peptide of a protein.
