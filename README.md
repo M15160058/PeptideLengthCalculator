@@ -18,5 +18,6 @@ This project does not require any external libraries to run the main script. It 
 You need a FASTA sequence to calculate the length of the extended peptide of a protein. This format allows the tool to accurately parse and process the sequence data necessary for length calculations.
 ## Usage
 To run the calculator, execute the script from the command line by navigating to the project directory and running:
+```bash
 python calculate_peptide_length.py
 Modify the script calculate_peptide_length.py to input your peptide sequence, or import the function into another script to use programmatically.
