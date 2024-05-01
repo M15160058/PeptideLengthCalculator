@@ -13,7 +13,7 @@ def calculate_peptide_length(num_residues):
     total_length = n_terminal_to_first_peptide + peptide_to_peptide + last_peptide_to_c_terminal
     return total_length
 
-# Example
+# Example of a FASTA sequence
 sequence = "MHHHHHHSSLIEVEKPLYGVEVFVGETAHFEIELSEPDVHGQWKLKGQPLTASPDCEIIEDGKKHILILHNCQLGMTGEVSFQAANAKSAANLKVKEL"
 num_residues = len(sequence)
 total_length = calculate_peptide_length(num_residues)
