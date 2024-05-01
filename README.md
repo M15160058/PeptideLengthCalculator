@@ -21,4 +21,4 @@ To run the calculator, execute the script from the command line by navigating to
 ```bash
 python calculate_peptide_length.py
 
-Modify the script calculate_peptide_length.py to input your peptide sequence, or import the function into another script to use programmatically.
+# Modify the script calculate_peptide_length.py to input your peptide sequence, or import the function into another script to use programmatically.
